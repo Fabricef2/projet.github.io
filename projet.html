@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="projet.css">
+    <script src="mexercer.js" defer></script>
+</head>
+<body>
+
+    <div id="haut"> 
+        <br>
+        <p id="mee">KOUDRI Mawuénam Fabrice</p>
+        <div id="dhaut">
+            <p class="phaut">Accueil</p>
+            <p class="phaut">Compétences</p>
+            <p class="phaut">Expériences</p>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <div class="presentation-text">
+            <br>
+            <p class="intro-title">Je suis Fabrice Mawuénam KOUDRI, Développeur en devenir et passionné par le web et le design !</p>
+            <div class="projet-btn">
+                <p><h3>Voir mes projets</h3></p>
+            </div>
+        </div>
+
+        <div class="presentation-image">
+            <br>
+            <img src="dev.webp" alt="Développeur front-end et back-end" class="main-image">
+        </div>
+    </div>
+
+    <div class="box-highlight">
+        <br>
+        <p><h2 class="section-title">A propos</h2></p>
+        <div class="about-text">
+            <p>Je m'appelle <span class="highlight-text">Fabrice Mawuénam KOUDRI</span>, passionné par la création de sites web modernes et interactifs.</p>
+            <p>Je suis actuellement étudiant en <span class="highlight-text">développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+            <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+            <div class="cv-btn">
+                <p><h3><a href="cv_fabrice_koudri.pdf" class="cv-link">Télécharger mon CV</a></h3></p>
+            </div>
+        </div>
+
+        <div class="profile-image-container">
+            <img src="fabrice.png" alt="Ma photo de profil" class="profile-image">
+        </div>
+    </div>
+
+    <div class="highlight">
+        <p><h2 class="section-title">Mes compétences</h2></p>
+        <div class="skills-left">
+            <p class="skills-category">Mise en oeuvre de projets et programmes</p>
+            <div class="skill-item">
+                <p>Gestion de projets</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Suivi et Evaluation</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Conception d'un système de suivi et évaluation</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Gestion de conflits</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Conception des tableaux de bord automatisés</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-right">
+            <p class="skills-category">Programmation et Analyse des données</p>
+            <div class="skill-item">
+                <p>Développement web (Front-end & Back-end)</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 50%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Conception des systèmes d'information</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Appariement et Traitement des données</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Visualisation des données (Power BI)</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 100%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Conception des bases de données (Data warehouse)</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-highlight contact-section">
+        <p><h2 class="contact-title">Vous avez un projet en tête ?<br><span class="contact-subtitle">N'hésitez pas à me contacter</span></h2></p>
+        <div class="contact-form">
+            <form method="post" action="traitement.php">
+                <div class="form-left">
+                    <p>
+                        <label for="prenom">Votre prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Jean">
+                    </p>
+                </div>
+
+                <div class="form-right">
+                    <p>
+                        <label for="nom">Votre nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="KODJO">
+                    </p>
+                </div>
+
+                <div class="form-full">
+                    <p>
+                        <label for="sujet">Votre sujet :</label>
+                        <input type="text" name="sujet" id="sujet" placeholder="Ex : Développement d'un site web">
+                        <br>
+                        <textarea name="Detail_sujet" placeholder="Donnez plus de détail à propos de votre sujet." rows="8"></textarea>
+                    </p>
+                </div>
+
+                <div class="form-submit">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <br>
+    <div class="footer-content">
+        <p class="footer-left">Designed by <strong>Fabrice Mawuénam KOUDRI</strong> with HTML CSS JS</p>
+        <p class="footer-right">Tous droits réservés - 2025</p>
+    </div>
+</footer>
+</html>

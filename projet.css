@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial Narrow';
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#haut {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+#mee {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+#dhaut {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.phaut {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Presentation Section */
+.highlight {
+    background-color: #f0f8ff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.presentation-text {
+    margin: 15px 50px 0px 30px;
+    float: left;
+    width: 600px;
+    height: 250px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.intro-title {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.projet-btn {
+    color: rgb(46, 204, 204);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px 160px 0px 160px;
+    border-style: groove;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.presentation-image {
+    float: right;
+    margin-right: 100px;
+    width: 320px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.main-image {
+    object-fit: cover;
+    object-position: center;
+    width: 260px;
+    height: 230px;
+    border: black solid;
+    box-shadow: 4px 4px 0px blueviolet;
+}
+
+/* About Section */
+.box-highlight {
+    background-color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.about-text {
+    margin: 0px 0px 0px 30px;
+    float: left;
+    width: 600px;
+    height: 250px;
+    overflow-wrap: break-word;
+    font-size: 20px;
+}
+
+.highlight-text {
+    color: brown;
+}
+
+.cv-btn {
+    color: rgb(46, 204, 204);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px 160px 0px 160px;
+    border-style: groove;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.cv-link {
+    color: rgb(46, 204, 204);
+    text-decoration: none;
+}
+
+.profile-image-container {
+    float: right;
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white double;
+}

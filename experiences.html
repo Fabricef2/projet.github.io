@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expériences Professionnelles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+        
+        .experience {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .experience:last-child {
+            border-bottom: none;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .job-title {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        .company {
+            color: #3498db;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+        
+        .date-location {
+            text-align: right;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+        }
+        
+        .tasks {
+            margin: 20px 0;
+        }
+        
+        .task-item {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .task-item:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .results {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2ecc71;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .results-title {
+            font-weight: 600;
+            color: #27ae60;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .results-title:before {
+            content: "➡️";
+            margin-right: 8px;
+        }
+        
+        .alignment {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+            font-style: italic;
+        }
+        
+        .impact {
+            background-color: #fff8e1;
+            border-left: 4px solid #f39c12;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .experience-header {
+                flex-direction: column;
+            }
+            
+            .date-location {
+                text-align: left;
+                margin-top: 5px;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Expériences Professionnelles</h1>
+            <p class="subtitle">Parcours professionnel détaillé</p>
+        </header>
+        
+        <section class="experience">
+            <div class="experience-header">
+                <div>
+                    <h2 class="job-title">Assistante de Recherche</h2>
+                    <p class="company">Cabinet IFE LAB</p>
+                </div>
+                <div class="date-location">
+                    <p>Février 2023 – Aujourd'hui</p>
+                    <p>Bénin</p>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <div class="task-item">Conception de formulaires d'enquête et digitalisation des outils de collecte (Kobo, ODK, Survey Solutions).</div>
+                <div class="task-item">Nettoyage, transformation et intégration de bases de données multi-sources.</div>
+                <div class="task-item">Développement de tableaux de bord interactifs pour le suivi des projets (Power BI, Excel).</div>
+                <div class="task-item">Production d'analyses statistiques pour des rapports institutionnels et études multisectorielles.</div>
+                <div class="task-item">Rédaction d'offres techniques et financières, participation au montage de dossiers de soumission.</div>
+                <div class="task-item">Mise en œuvre de processus d'automatisation pour la collecte et le reporting.</div>
+            </div>
+            
+            <div class="results">
+                <div class="results-title">Résultats clés :</div>
+                <div class="task-item">Mise en place de plus de 20 outils numériques de collecte.</div>
+                <div class="task-item">Conception de tableaux de bord automatisés utilisés par plusieurs équipes d'enquête.</div>
+                <div class="task-item">Amélioration de la qualité des données grâce à une réduction des erreurs de saisie (>30 %).</div>
+            </div>
+        </section>
+        
+        <section class="experience">
+            <div class="experience-header">
+                <div>
+                    <h2 class="job-title">Consultant Associé</h2>
+                    <p class="company">Étude de faisabilité pour un compte satellite du numérique en zones rurales (PITN2R)</p>
+                </div>
+                <div class="date-location">
+                    <p>Avril 2024 – Juin 2024</p>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <div class="task-item">Appui à la coordination générale de la mission.</div>
+                <div class="task-item">Production et assurance qualité des rapports stratégiques : diagnostic institutionnel, cartographie des acteurs, analyse des coûts et des processus.</div>
+            </div>
+            
+            <div class="alignment">
+                Alignement BAD : Intégrer l'Afrique & gouvernance numérique.
+            </div>
+        </section>
+        
+        <section class="experience">
+            <div class="experience-header">
+                <div>
+                    <h2 class="job-title">Collaborateur du Consultant Principal</h2>
+                    <p class="company">Programme Intersectoriel pour l'Éducation et le Bien-être des Filles</p>
+                </div>
+                <div class="date-location">
+                    <p>Mars 2023 – Novembre 2023</p>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <div class="task-item">Analyse situationnelle basée sur des données existantes et études sectorielles.</div>
+                <div class="task-item">Identification et budgétisation d'interventions innovantes pour l'autonomisation des filles.</div>
+                <div class="task-item">Contribution à la définition du dispositif de coordination du programme.</div>
+            </div>
+            
+            <div class="impact">
+                <div class="results-title">Impact :</div>
+                Participation à un cadre national visant >500 000 filles.
+            </div>
+            
+            <div class="alignment">
+                Alignement High-5 : Améliorer la qualité de vie des populations.
+            </div>
+        </section>
+        
+        <section class="experience">
+            <div class="experience-header">
+                <div>
+                    <h2 class="job-title">Assistant du Consultant Principal</h2>
+                    <p class="company">Projet de gestion durable des vallons de Boué, Zounvi et Donoukon</p>
+                </div>
+                <div class="date-location">
+                    <p>Août 2023 – Septembre 2023</p>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <div class="task-item">Coordination de mission, rédaction et validation des rapports.</div>
+            </div>
+            
+            <div class="alignment">
+                Nourrir l'Afrique — valorisation des vallons agricoles.
+            </div>
+        </section>
+        
+        <section class="experience">
+            <div class="experience-header">
+                <div>
+                    <h2 class="job-title">Assistante du Directeur</h2>
+                    <p class="company">Armoire IFE LAB</p>
+                </div>
+                <div class="date-location">
+                    <p>Mars 2019 – Février 2023</p>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <div class="task-item">Tâches : gestion administrative, logistique, correspondances, reporting, gestion documentaire, appui comptable.</div>
+            </div>
+            
+            <div class="results">
+                <div class="results-title">Compétences développées :</div>
+                Solides compétences organisationnelles et gestion multitâches.
+            </div>
+        </section>
+        
+    </div>
+
+</body>
+<div><a href="principale.html" style="color:red; text-decoration: none; text-align: center;"> Revenir en arrière</a></div>
+</html>

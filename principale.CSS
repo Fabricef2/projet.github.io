@@ -1,0 +1,120 @@
+.highlight {
+    background-color : white;
+    height: 300px;
+
+}
+
+.box-highlight {
+    background-color: rgb(104, 222, 222);
+    height: 400px;
+}
+
+#haut {
+    background-color: black;
+    height: 100px ;
+}
+
+#phaut {
+    color: aliceblue;
+    margin: 10px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;*/
+}
+
+#dhaut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 100px;
+}
+
+#mee {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 50px;
+}
+
+#cg {
+    width: 80%;
+    height: 10px;
+    float: left;
+    overflow: hidden;
+    background-color: rgb(224, 224, 231);
+    border-radius: 3px;
+}
+
+#projet{
+    color: rgb(46, 204, 204); 
+    background-color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0px 160px 0px 160px; 
+    border-style: groove ; 
+    border-radius: 7px;
+}
+
+#imgfab {
+    float: right; 
+    margin-right: 30px; 
+    width:300px ; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    border: white double;
+}
+
+#pcg {
+    margin-bottom: 5px;
+}
+
+#ncg {
+    height: 100%;
+    box-sizing: border-box; 
+    background-color: rgb(65, 201, 65); 
+    text-align: right; 
+    line-height: 15px; 
+    padding-top: 5px; 
+    padding-left: 30px; 
+    color: white; 
+    transition: width 1s ease-in-out;
+}
+
+#cd{
+    width: 80%; 
+    height: 10px; 
+    float: left; 
+    overflow: hidden; 
+    background-color: rgb(224, 224, 231); 
+    border-radius: 3px;
+}
+
+#ncd{
+    height: 100%; 
+    box-sizing: border-box;
+    background-color: rgb(65, 201, 65); 
+    text-align: right; 
+    line-height: 15px; 
+    padding-top: 5px;
+    padding-left: 30px; 
+    color: white; 
+    transition: width 1s ease-in-out;
+}
+
+.error-field {
+    border: 2px solid red !important;
+    background-color: #ffe6e6;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
